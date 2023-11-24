@@ -12,3 +12,6 @@ myvenv/
 # IDE or editor files
 .vscode/
 .idea/
+
+# Environment file
+*.env
