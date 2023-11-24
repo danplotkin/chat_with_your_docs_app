@@ -101,8 +101,7 @@ class App:
         self._file_upload()
         self._interact()
         self._clear_history()
-        print('MEMORY:', st.session_state.model.qa.memory.chat_memory.messages)
-
+        
 
 if __name__ == "__main__":
     app = App()
