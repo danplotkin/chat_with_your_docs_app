@@ -99,3 +99,11 @@ It will direct yout to a url like `http://localhost:XXXX/` to test out the app.
 
 ### 8. Deploy an App to Streamlit
 Once everything works and you are satisfied with the testing, you can deploy your app using the [documentation](https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app).
+
+## Questions or Support
+
+For any questions, feedback, or support regarding this project, feel free to reach out:
+
+📧 Email: [danmplotkin@gmail.com](mailto:danmplotkin@gmail.com)
+
+I'm available during weekdays from 9 AM to 5 PM (GMT), and I'll do my best to respond to your inquiries as soon as possible.
