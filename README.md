@@ -9,7 +9,6 @@ This repository will allow you to create a GPT powered chatbot app that has your
 - **History Clearning**: This application can clear the history of the chat and conversational memory all within the UI.
 
 ![Alt Text](https://github.com/danplotkin/IntelliChatAI/blob/master/cwyd_demo.gif)
-<img src="https://github.com/danplotkin/IntelliChatAI/blob/master/cwyd_demo.gif" alt="Alt Text">
 
 ## Prerequisites
 
