@@ -7,6 +7,7 @@ This repository will allow you to create a GPT powered chatbot app that has your
 - **Interactive Chatbot**: Ability to interact in a ChatGPT-like conversation without any prior documents.
 - **Document Interaction**: Ability to add Large PDF/txt documents into the conversation and memory, allowing users to ineract with the document.
 - **History Clearning**: This application can clear the history of the chat and conversational memory all within the UI.
+  
 ![](https://github.com/danplotkin/chat_with_your_docs_app/blob/master/cwyd_demo%20(online-video-cutter.com).gif)
 
 ## Prerequisites
