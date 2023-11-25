@@ -8,8 +8,6 @@ This repository will allow you to create a GPT powered chatbot app that has your
 - **Document Interaction**: Ability to add Large PDF/txt documents into the conversation and memory, allowing users to ineract with the document.
 - **History Clearning**: This application can clear the history of the chat and conversational memory all within the UI.
 
-![Alt Text](https://github.com/danplotkin/IntelliChatAI/blob/master/cwyd_demo.gif)
-
 ## Prerequisites
 
 Before getting started, ensure you have the following installed on your system:
