@@ -59,11 +59,7 @@ class ChatWithYourDocuments:
         documents = loader.load_and_split()
 
         # create vector store
-        if self.db is not None:
-            new_idx = FAISS.from_documents(documents, self.embeddings)
-            self.db.merge_from(new_idx)
-        else:
-            self.db = FAISS.from_documents(documents, self.embeddings)
+        self.db = FAISS.from_documents(documents, self.embeddings)
 
         self.qa = ConversationalRetrievalChain.from_llm(
             llm=self.llm,
