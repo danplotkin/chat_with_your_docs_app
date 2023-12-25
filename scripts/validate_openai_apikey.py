@@ -14,10 +14,10 @@ client = OpenAI()
 # Test the API key by retrieving the list of models  
 try:
     completion = client.completions.create(
-    model="gpt-3.5-turbo-instruct",
-    prompt="Say this validation test was successful",
-    max_tokens=7,
-    temperature=0
+        model="gpt-3.5-turbo-instruct",
+        prompt="Say this validation test was successful",
+        max_tokens=7,
+        temperature=0
     )
 
     print(completion.choices[0].text)
