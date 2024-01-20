@@ -73,7 +73,7 @@ Environment Variables:
 
 5. `OPENAI_DOCSEARCH_K`: A value representing a parameter for document search functionality within your app. It could control the relevance or specificity of document search results.
 
-6. `BUFFER_MEMORY_K`: Represents a conversational memory window in your application, or how many messages to store in memory.
+6. `BUFFER_MEMORY_TOKEN_LIMIT`: The amount of tokens to store in conversation buffer memory.
 
 7. `CONFIG_PAGE_TITLE`: The title of the configuration page within your app, usually displayed at the top of the page.
 
