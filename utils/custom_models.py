@@ -1,5 +1,5 @@
 from langchain.chat_models import ChatOpenAI
-from langchain.memory import ConversationBufferWindowMemory
+from langchain.memory import ConversationTokenBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
@@ -39,8 +39,9 @@ class ChatWithYourDocuments:
         )
         self.embeddings = OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY'))
         self.db = None
-        self.memory = ConversationBufferWindowMemory(
-            k=os.getenv('BUFFER_MEMORY_K'),
+        self.memory = ConversationTokenBufferMemory(
+            llm=self.llm,
+            max_token_limit=os.getenv('BUFFER_MEMORY_TOKEN_LIMIT'),
             memory_key="chat_history",
             return_messages=True
         )
