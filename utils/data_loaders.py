@@ -41,7 +41,7 @@ class PDFLoader(BaseLoader):
             text = page.extract_text()
             output.append(text)
 
-        return "\n\n".join(output)
+        return "".join(output)
 
 
 class TextFileLoader(BaseLoader):
@@ -55,7 +55,7 @@ class TextFileLoader(BaseLoader):
         output = []
         for line in self.streamlit_file:
             output.append(line.decode('utf-8'))
-        return "\n\n".join(output)
+        return "".join(output)
 
 
 class DocumentLoader:
